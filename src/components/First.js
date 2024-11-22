@@ -29,7 +29,7 @@ function First() {
             <button className="cta-button">Get in Touch</button>
           </div>
           <div className="image-content">
-            <img src="/Assets/background.png" alt="Flower Painting" className="main-banner-img" />
+            <img src="/Assets/Background.png" alt="Flower Painting" className="main-banner-img" />
           </div>
         </div>
       </header>

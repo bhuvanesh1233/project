@@ -10,6 +10,7 @@ const instructors = [
 function ThirdSibling() {
     return (
         <div className="new-app">
+            
             <header className="new-header">
                 <h1>Our Instructors</h1>
                 <p>Meet the creative minds behind our innovative programs.</p>

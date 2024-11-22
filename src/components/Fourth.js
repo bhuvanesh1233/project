@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Fourth = () => {
   const faqData = [
@@ -30,12 +30,13 @@ const Fourth = () => {
   ];
 
   return (
-    <section className="First">
-      <div className="container">
+    <section className="fourth-section">
+      <div className="fourth-container">
         <header className="faq-header">
           <h2>Got a question about our course?</h2>
           <p>
-            Chances are at this stage you have a couple of questions. We encourage our students to ask questions directly and you can arrange a quick call with us anytime.
+            Chances are at this stage you have a couple of questions. We encourage our students to ask questions directly
+            and you can arrange a quick call with us anytime.
           </p>
         </header>
 
@@ -54,7 +55,8 @@ const Fourth = () => {
           <div className="contact-content">
             <h3>Got another question?</h3>
             <p>
-              If you've got another question about our Bootcamp, you can send us a message or join an intro session to meet our team and others.
+              If you've got another question about our Bootcamp, you can send us a message or join an intro session to
+              meet our team and others.
             </p>
             <div className="contact-buttons">
               <button className="btn primary">Send message</button>
@@ -63,7 +65,7 @@ const Fourth = () => {
           </div>
           <div className="contact-image">
             <img
-              src="/Assets/FAQ Image.png" // Replace with your image URL
+              src="/Assets/FAQ Image.png" // Replace with the correct image path
               alt="Person with laptop"
             />
           </div>
