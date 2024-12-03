@@ -71,7 +71,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <button className="get-in-touch-btn">Get in Touch</button>
     </div>
   );
 };
