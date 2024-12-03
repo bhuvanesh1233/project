@@ -258,6 +258,24 @@
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between; /* Aligns the elements to the ends */
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+    position: relative; /* Ensure header context */
+  }
+
+  .get-in-touch-btn {
+    position: fixed;
+    top: 50%;
+    right: 20px; /* Adjust for spacing */
+    transform: translateY(-50%);
+  }
+}
 
 
 
